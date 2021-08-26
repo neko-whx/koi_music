@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/app_name">
+        <Preference
+            android:key="version"
+            android:summary="1.0"
+            android:title="当前版本" />
+        <Preference
+            android:key="share"
+            android:title="@string/menu_share" />
+        <Preference
+            android:key="star"
+            android:summary="前往项目地址给个 Star，鼓励作者"
+            android:title="给我点赞" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="关于作者">
+        <Preference
+            android:key="weibo"
+            android:summary="@string/about_weibo"
+            android:title="微博" />
+        <Preference
+            android:key="blog"
+            android:summary="@string/about_twitter"
+            android:title="推特" />
+        <Preference
+            android:key="github"
+            android:summary="@string/about_github"
+            android:title="github" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="版权">
+        <Preference
+            android:summary="百度音乐"
+            android:title="在线音乐" />
+        <Preference
+            android:summary="高德地图"
+            android:title="天气数据" />
+    </PreferenceCategory>
+</PreferenceScreen>
